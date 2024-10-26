@@ -3,8 +3,8 @@ import { CalendarIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
 import { Revenue } from '@/app/lib/definitions';
 
-// This component is representational only.
-// For data visualization UI, check out:
+// This component is representational only.// Este componente es solo representativo.
+// For data visualization UI, check out:// Para la interfaz de usuario de visualización de datos, consulte:
 // https://www.tremor.so/
 // https://www.chartjs.org/
 // https://airbnb.io/visx/
@@ -15,7 +15,7 @@ export default async function RevenueChart({
   revenue: Revenue[];
 }) {
   const chartHeight = 350;
-  // NOTE: Uncomment this code in Chapter 7
+  // NOTE: Uncomment this code in Chapter 7 // NOTA: Descomente este código en el Capítulo 7
 
   // const { yAxisLabels, topLabel } = generateYAxis(revenue);
 
@@ -28,7 +28,7 @@ export default async function RevenueChart({
       <h2 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
         Recent Revenue
       </h2>
-      {/* NOTE: Uncomment this code in Chapter 7 */}
+      {/* NOTE: Uncomment this code in Chapter 7 */} {/* NOTA: Descomente este código en el Capítulo 7 */}  
 
       {/* <div className="rounded-xl bg-gray-50 p-4">
         <div className="sm:grid-cols-13 mt-0 grid grid-cols-12 items-end gap-2 rounded-md bg-white p-4 md:gap-4">
